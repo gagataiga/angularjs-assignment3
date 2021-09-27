@@ -56,6 +56,10 @@ input[type="text"] {
   width: 50%;
 }
 
+.error p{
+  font-size: large;
+}
+
 /* --------------media query-------------- 
 */
 /*This is my css practice Don*/

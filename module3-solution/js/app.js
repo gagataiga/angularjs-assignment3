@@ -37,8 +37,8 @@
 
   function FoundItemsListDirectiveController() {
     let list = this;
-    console.log(list);
-    console.log(list.items);
+    
+   
   }
 
   // injection
@@ -69,8 +69,10 @@
       }
     } 
 
+    // remove item specfic
     narrow.remove = function (index) { 
       console.log(index);
+      narrow.found.splice(index, 1);
     }
 
   }
